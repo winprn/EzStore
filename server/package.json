@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server side of EzStore",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winprn/EzStore.git"
+  },
+  "author": "winprn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winprn/EzStore/issues"
+  },
+  "homepage": "https://github.com/winprn/EzStore#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1"
+  }
+}
